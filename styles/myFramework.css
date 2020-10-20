@@ -488,6 +488,11 @@ a {
     text-decoration: none;
 }
 
+.width-50 {
+    width: 50%;
+    float: left;
+}
+
 .login-icon {
     font-size: 96px;
 }
