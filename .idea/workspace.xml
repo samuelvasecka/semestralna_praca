@@ -10,9 +10,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ac77af49-1f58-481b-a6cf-9ab76b283600" name="Default Changelist" comment="comment and like problem fixed">
+    <list default="true" id="ac77af49-1f58-481b-a6cf-9ab76b283600" name="Default Changelist" comment="date fixed">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/myFramework.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/myFramework.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/item.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/item.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -68,7 +67,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1602839595016</updated>
-      <workItem from="1602839596067" duration="98222000" />
+      <workItem from="1602839596067" duration="99259000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1603232825953</created>
@@ -91,7 +90,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603186700133</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="date fixed">
+      <created>1603199304985</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1603199304985</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -112,7 +118,8 @@
     <MESSAGE value="initial commit" />
     <MESSAGE value="validator commit" />
     <MESSAGE value="comment and like problem fixed" />
-    <option name="LAST_COMMIT_MESSAGE" value="comment and like problem fixed" />
+    <MESSAGE value="date fixed" />
+    <option name="LAST_COMMIT_MESSAGE" value="date fixed" />
   </component>
   <component name="WindowStateProjectService">
     <state x="254" y="90" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603184316935">
@@ -135,10 +142,10 @@
       <screen x="0" y="0" width="1600" height="870" />
     </state>
     <state x="634" y="358" key="NewPhpFileDialog/0.0.1600.870@0.0.1600.870" timestamp="1603185468677" />
-    <state x="392" y="168" key="Vcs.Push.Dialog.v2" timestamp="1603186704370">
+    <state x="392" y="168" key="Vcs.Push.Dialog.v2" timestamp="1603199308355">
       <screen x="0" y="0" width="1600" height="870" />
     </state>
-    <state x="392" y="168" key="Vcs.Push.Dialog.v2/0.0.1600.870@0.0.1600.870" timestamp="1603186704370" />
+    <state x="392" y="168" key="Vcs.Push.Dialog.v2/0.0.1600.870@0.0.1600.870" timestamp="1603199308355" />
     <state x="92" y="92" width="1416" height="686" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1603128958025">
       <screen x="0" y="0" width="1600" height="870" />
     </state>

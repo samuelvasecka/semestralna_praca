@@ -15,7 +15,7 @@
                     </div>
                 </div>
             </div>
-            <div class="width-50">
+            <div class="width-50 mobile-hide">
                 <div class="text-r">
                     <div>
                         <div class="inline pad-r-sm">
