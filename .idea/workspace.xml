@@ -10,14 +10,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ac77af49-1f58-481b-a6cf-9ab76b283600" name="Default Changelist" comment="initial commit">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/addItem.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/addItem.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/item.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/item.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/profile.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/profile.php" afterDir="false" />
-    </list>
+    <list default="true" id="ac77af49-1f58-481b-a6cf-9ab76b283600" name="Default Changelist" comment="validator commit" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -71,7 +64,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1602839595016</updated>
-      <workItem from="1602839596067" duration="96230000" />
+      <workItem from="1602839596067" duration="96882000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1603232825953</created>
@@ -80,7 +73,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603232825953</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="validator commit">
+      <created>1603185831207</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1603185831207</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -99,7 +99,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
+    <MESSAGE value="validator commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="validator commit" />
   </component>
   <component name="WindowStateProjectService">
     <state x="254" y="90" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603184316935">
@@ -122,10 +123,10 @@
       <screen x="0" y="0" width="1600" height="870" />
     </state>
     <state x="634" y="358" key="NewPhpFileDialog/0.0.1600.870@0.0.1600.870" timestamp="1603185468677" />
-    <state x="392" y="168" key="Vcs.Push.Dialog.v2" timestamp="1603232835460">
+    <state x="392" y="168" key="Vcs.Push.Dialog.v2" timestamp="1603185836267">
       <screen x="0" y="0" width="1600" height="870" />
     </state>
-    <state x="392" y="168" key="Vcs.Push.Dialog.v2/0.0.1600.870@0.0.1600.870" timestamp="1603232835460" />
+    <state x="392" y="168" key="Vcs.Push.Dialog.v2/0.0.1600.870@0.0.1600.870" timestamp="1603185836267" />
     <state x="92" y="92" width="1416" height="686" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1603128958025">
       <screen x="0" y="0" width="1600" height="870" />
     </state>

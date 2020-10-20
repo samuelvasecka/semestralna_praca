@@ -50,13 +50,13 @@
             <div class="col-9 mar-t-sm">
                 <div class="margin-l-14">
                     <a class="c-text-wh" href="#">Comments</a>
-                    <div>15</div>
+                    <div class="inline">15</div>
                 </div>
             </div>
             <div class="col-3 mar-t-sm text-r">
                 <div class="margin-r-14">
                     <a href="#"><i class="fa fa-thumbs-up c-text-pink"></i></a>
-                    <div>10</div>
+                    <div class="inline">10</div>
                 </div>
             </div>
         </div>
