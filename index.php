@@ -27,6 +27,7 @@
                 include('../semestralna_praca/templates/item.php');
             }
             ?>
+
         </div>
         <div class="col-3 mobile-hide">
             <?php include('../semestralna_praca/templates/addItem.php') ?>

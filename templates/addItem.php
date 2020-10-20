@@ -1,12 +1,11 @@
-<html lang="en">
 <div class="profile mar-l-sm pad-t-sm">
     <div class="radius-12 pad-t-big pad-b-big c-bg-cmpnt scrollable">
         <div class="font-big mar-auto">
             <i class="fa fa-plus font-big c-text-dark c-bg-pink radius-100 text-c"></i>
         </div>
         <div class="mar-l-big mar-r-big pad-t-big pad-b-big text-c">
-            <text class="title-2 c-text-wh block non-dec pad-t-big pad-b-big">Publish Content
-            </text>
+            <div class="title-2 c-text-wh block non-dec pad-t-big pad-b-big">Publish Content
+            </div>
             <input type="text" class="radius-12 c-bg-bg" placeholder="Enter Title" name="title" required/>
             <textarea class="radius-12 c-bg-bg" placeholder="Enter Description" name="description" required></textarea>
             <form action="#">
@@ -26,4 +25,3 @@
     </div>
 </div>
 <br/>
-</html>

@@ -1,4 +1,3 @@
-<html lang="en">
 <div class="header">
     <div class="container-fl c-bg-pink">
         <div class="row">
@@ -46,4 +45,3 @@
         </div>
     </div>
 </div>
-</html>
