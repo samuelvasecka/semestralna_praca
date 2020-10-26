@@ -21,25 +21,40 @@ if (isset($_POST['email'])) {
 
     $email = $_POST['email'];
     $password = $_POST['password'];
+    $username = $_POST['username'];
 
     if ($conn == null) {
         echo "<script>alert(\"Connection Error!\")</script>";
     } else {
-        $sql = "SELECT id FROM users WHERE email='" . $email . "' AND password='" . $password . "'";
+        $sql = "SELECT email FROM users WHERE email='".$email."'";
         $result = $conn->query($sql);
         if ($result->num_rows > 0) {
-            while ($row = $result->fetch_assoc()) {
-                $cookie_name = "user_id";
-                $cookie_value = $row["id"];
-                setcookie($cookie_name, $cookie_value, time() + (86400 * 30));
-                echo '<script>
+            echo "<script>alert(\"Email already used!\")</script>";
+        } else {
+            $sql = "INSERT INTO users(username, email, password, created) VALUES('".$username."', '".$email."', '".$password."', now())";
+            $result = $conn->query($sql);
+            if ($result) {
+                $sql = "SELECT id FROM users WHERE email='" . $email . "' AND password='" . $password . "'";
+                $result = $conn->query($sql);
+                if ($result->num_rows > 0) {
+                    while ($row = $result->fetch_assoc()) {
+                        $cookie_name = "user_id";
+                        $cookie_value = $row["id"];
+                        setcookie($cookie_name, $cookie_value, time() + (86400 * 30));
+                        echo '<script>
                             window.location.href = "index.php";
                             </script>';
+                    }
+                    $conn->close();
+                } else {
+                    echo "<script>alert(\"Failed login!\")</script>";
+                    $conn->close();
+                }
+                $conn->close();
+            } else {
+                echo "<script>alert(\"Failed registration!\")</script>";
+                $conn->close();
             }
-            $conn->close();
-        } else {
-            echo "<script>alert(\"Failed login!\")</script>";
-            $conn->close();
         }
     }
 }
@@ -48,7 +63,7 @@ if (isset($_POST['email'])) {
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Login</title>
+    <title>Registration</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="styles/styleLogin.css">
@@ -65,16 +80,18 @@ if (isset($_POST['email'])) {
                 <div class="form">
                     <form method="POST">
                         <input type="email" id="email" class="email" placeholder="Enter email" name="email" required/>
+                        <input type="text" id="username" class="username" placeholder="Enter username" name="username"
+                               required/>
                         <input type="password" id="password" class="password" placeholder="Enter password" name="password"
                                required/>
                         <button type="submit" class="login-button">
-                            Login
+                            Register
                         </button>
                     </form>
                     <hr/>
-                    <form action="registration.php">
+                    <form action="login.php">
                         <button type="submit" class="login-button">
-                            Register
+                            <i class="fa fa-arrow-left"></i>
                         </button>
                     </form>
                 </div>

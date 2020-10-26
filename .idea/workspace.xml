@@ -10,9 +10,31 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ac77af49-1f58-481b-a6cf-9ab76b283600" name="Default Changelist" comment="date fixed">
+    <list default="true" id="ac77af49-1f58-481b-a6cf-9ab76b283600" name="Default Changelist" comment="date fixed 2">
+      <change afterPath="$PROJECT_DIR$/images/background-city-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/background-city.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/logo-new-big.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/logo-new-small.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/user/default.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/php/common/database.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/php/common/encipher.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/php/common/header.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/php/common/include.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/php/common/response.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/php/functions/livesearch.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/php/functions/posts.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/registration.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/styleHome.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/styleLogin.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/item.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/item.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/login.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/register.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/addItem.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/header.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/item.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/profile.php" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +55,11 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="PhpServers">
+    <servers>
+      <server host="localhost" id="5c87e18d-e2a0-4259-8f76-04d62055169f" name="localhost" />
+    </servers>
+  </component>
   <component name="ProjectId" id="1ixBvdPL0h4kPE66MTNuAjIdVV4" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -43,7 +70,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="dart.analysis.tool.window.visible" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../../../xampp/htdocs/semestralna_praca" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../cvicenie1" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -51,12 +78,19 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\T440p\PhpstormProjects\php_mysql\www\semestralna_praca\php" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\T440p\PhpstormProjects\php_mysql\www\semestralna_praca\images\user" />
       <recent name="C:\Users\T440p\PhpstormProjects\php_mysql\www\semestralna_praca" />
-      <recent name="C:\Users\T440p\PhpstormProjects\php_mysql\www\semestralna_praca\styles" />
+      <recent name="C:\Users\T440p\PhpstormProjects\php_mysql\www\semestralna_praca\version1" />
+      <recent name="C:\Users\T440p\PhpstormProjects\php_mysql\www\semestralna_praca\version2\php\functions" />
+      <recent name="C:\Users\T440p\PhpstormProjects\php_mysql\www\semestralna_praca\version2\php\common" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -67,7 +101,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1602839595016</updated>
-      <workItem from="1602839596067" duration="99259000" />
+      <workItem from="1602839596067" duration="130526000" />
+      <workItem from="1603453996615" duration="87536000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1603232825953</created>
@@ -97,7 +132,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603199304985</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="date fixed 2">
+      <created>1603200363437</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1603200363437</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -113,54 +155,60 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
     <MESSAGE value="validator commit" />
     <MESSAGE value="comment and like problem fixed" />
     <MESSAGE value="date fixed" />
-    <option name="LAST_COMMIT_MESSAGE" value="date fixed" />
+    <MESSAGE value="date fixed 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="date fixed 2" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="254" y="90" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603184316935">
+    <state x="254" y="90" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603641084705">
       <screen x="0" y="0" width="1600" height="870" />
     </state>
-    <state x="254" y="90" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1600.870@0.0.1600.870" timestamp="1603184316935" />
+    <state x="254" y="90" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1600.870@0.0.1600.870" timestamp="1603641084705" />
+    <state x="888" y="245" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1603285652271">
+      <screen x="0" y="0" width="1600" height="870" />
+    </state>
+    <state x="888" y="245" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1600.870@0.0.1600.870" timestamp="1603285652271" />
     <state x="530" y="182" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1603216035191">
       <screen x="0" y="0" width="1600" height="870" />
     </state>
     <state x="530" y="182" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1600.870@0.0.1600.870" timestamp="1603216035191" />
-    <state x="580" y="190" key="FileChooserDialogImpl" timestamp="1603183683013">
+    <state x="580" y="190" key="FileChooserDialogImpl" timestamp="1603631234494">
       <screen x="0" y="0" width="1600" height="870" />
     </state>
-    <state x="580" y="190" key="FileChooserDialogImpl/0.0.1600.870@0.0.1600.870" timestamp="1603183683012" />
+    <state x="580" y="190" key="FileChooserDialogImpl/0.0.1600.870@0.0.1600.870" timestamp="1603631234494" />
     <state x="474" y="158" key="NewPhpClassDialog" timestamp="1602960054756">
       <screen x="0" y="0" width="1600" height="870" />
     </state>
     <state x="474" y="158" key="NewPhpClassDialog/0.0.1600.870@0.0.1600.870" timestamp="1602960054756" />
-    <state x="634" y="358" key="NewPhpFileDialog" timestamp="1603185468677">
+    <state x="634" y="358" key="NewPhpFileDialog" timestamp="1603653549053">
       <screen x="0" y="0" width="1600" height="870" />
     </state>
-    <state x="634" y="358" key="NewPhpFileDialog/0.0.1600.870@0.0.1600.870" timestamp="1603185468677" />
-    <state x="392" y="168" key="Vcs.Push.Dialog.v2" timestamp="1603199308355">
+    <state x="634" y="358" key="NewPhpFileDialog/0.0.1600.870@0.0.1600.870" timestamp="1603653549053" />
+    <state x="392" y="168" key="Vcs.Push.Dialog.v2" timestamp="1603200367129">
       <screen x="0" y="0" width="1600" height="870" />
     </state>
-    <state x="392" y="168" key="Vcs.Push.Dialog.v2/0.0.1600.870@0.0.1600.870" timestamp="1603199308355" />
-    <state x="92" y="92" width="1416" height="686" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1603128958025">
+    <state x="392" y="168" key="Vcs.Push.Dialog.v2/0.0.1600.870@0.0.1600.870" timestamp="1603200367129" />
+    <state x="92" y="92" width="1416" height="686" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1603713029487">
       <screen x="0" y="0" width="1600" height="870" />
     </state>
-    <state x="92" y="92" width="1416" height="686" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1600.870@0.0.1600.870" timestamp="1603128958025" />
-    <state x="617" y="349" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1603124380967">
+    <state x="92" y="92" width="1416" height="686" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1600.870@0.0.1600.870" timestamp="1603713029487" />
+    <state x="617" y="349" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1603311312442">
       <screen x="0" y="0" width="1600" height="870" />
     </state>
-    <state x="617" y="349" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1600.870@0.0.1600.870" timestamp="1603124380967" />
-    <state x="456" y="198" key="run.anything.popup" timestamp="1602962043664">
+    <state x="617" y="349" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1600.870@0.0.1600.870" timestamp="1603311312442" />
+    <state x="456" y="198" key="run.anything.popup" timestamp="1603710019841">
       <screen x="0" y="0" width="1600" height="870" />
     </state>
-    <state x="456" y="198" key="run.anything.popup/0.0.1600.870@0.0.1600.870" timestamp="1602962043664" />
-    <state x="463" y="182" width="672" height="678" key="search.everywhere.popup" timestamp="1603183214823">
+    <state x="456" y="198" key="run.anything.popup/0.0.1600.870@0.0.1600.870" timestamp="1603710019841" />
+    <state x="463" y="182" width="672" height="678" key="search.everywhere.popup" timestamp="1603635632873">
       <screen x="0" y="0" width="1600" height="870" />
     </state>
-    <state x="463" y="182" width="672" height="678" key="search.everywhere.popup/0.0.1600.870@0.0.1600.870" timestamp="1603183214823" />
+    <state x="463" y="182" width="672" height="678" key="search.everywhere.popup/0.0.1600.870@0.0.1600.870" timestamp="1603635632873" />
   </component>
 </project>
