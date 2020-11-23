@@ -211,7 +211,6 @@ class Wedding
         $cookieManager = new CookieManager();
         if (isset($conn)) {
             $sql = "INSERT INTO weddings(wedding_date, place, couple, budget) VALUES ('".$this->weddingDate."', '".$this->place."', '".$this->couple."', '".$this->budget."')";
-            $conn->query($sql);
             $conn->begin_transaction();
             $conn->query($sql);
             $sql = "INSERT INTO administrators(user_id, wedding_id) VALUES ('" . $cookieManager->getUserId() . "', LAST_INSERT_ID())";
