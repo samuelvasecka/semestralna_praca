@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="BranchesTreeState">
     <expand>
       <path>
@@ -10,64 +13,58 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ac77af49-1f58-481b-a6cf-9ab76b283600" name="Default Changelist" comment="prihlasovanie, registrácia, filter, pridávanie príspevkov">
-      <change afterPath="$PROJECT_DIR$/checklist.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/config.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/functions/checklistQuery.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/functions/deleteTask.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/functions/updateDone.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/functions/updateTask.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/bricks.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/corner_flower.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/corner_flower_bottom.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/corner_flower_top.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/flower_bottom.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/flower_circle.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/logo_img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/logo_next_text.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/logo_next_text_copy.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/logo_next_text_copy_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/logo_with_text.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/wall.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/objects/CookieManager.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/objects/Database.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/objects/FilterChecklist.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/objects/LocationManager.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/objects/Task.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/objects/Templates.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/objects/User.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/objects/Wedding.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/menuBottom.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/menuTop.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/test.php" afterDir="false" />
+    <list default="true" id="ac77af49-1f58-481b-a6cf-9ab76b283600" name="Default Changelist" comment="checkpoint 2 update">
+      <change afterPath="$PROJECT_DIR$/admin/administration.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/login.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajaxCalls/getCommissions.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajaxCalls/getResults.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commission/login.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commission/registration.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/country/administration.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/country/history.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/elections.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/objects/Admin.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/objects/Commission.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/objects/Cookies.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/objects/Country.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/objects/Location.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/objects/Results.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/polygons/states.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/background-city-2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/background-city.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/dark-logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/logo-new-big.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/logo-new-small.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/picture.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/plane-dark.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/plane.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/text-logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/user/default.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checklist.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/config.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/functions/checklistQuery.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/functions/deleteTask.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/functions/updateDone.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/functions/updateTask.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home.php" beforeDir="false" afterPath="$PROJECT_DIR$/home.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/bricks.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/corner_flower.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/corner_flower_bottom.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/corner_flower_top.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/flower_bottom.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/flower_circle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/logo_img.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/logo_next_text.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/logo_next_text_copy.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/logo_next_text_copy_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/logo_with_text.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/wall.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/login.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/common/database.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/common/encipher.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/common/header.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/common/include.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/common/response.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/functions/livesearch.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/functions/posts.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/registration.php" beforeDir="false" afterPath="$PROJECT_DIR$/registration.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/myFramework.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/styleHome.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/styleLogin.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/login.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/objects/CookieManager.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/objects/Database.php" beforeDir="false" afterPath="$PROJECT_DIR$/objects/Database.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/objects/FilterChecklist.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/objects/LocationManager.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/objects/Task.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/objects/Templates.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/objects/User.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/objects/Wedding.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/registration.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/menuBottom.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/menuTop.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test.php" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,8 +77,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -103,7 +100,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="dart.analysis.tool.window.visible" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../../../xampp/htdocs/trucksion" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -116,19 +113,19 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\T440p\PhpstormProjects\php_mysql\www\semestralna_praca\version3" />
-      <recent name="C:\Users\T440p\PhpstormProjects\php_mysql\www\semestralna_praca\styles" />
-      <recent name="C:\Users\T440p\PhpstormProjects\php_mysql\www\semestralna_praca\objects" />
-      <recent name="C:\Users\T440p\PhpstormProjects\php_mysql\www\semestralna_praca" />
-      <recent name="C:\Users\T440p\PhpstormProjects\php_mysql\www\semestralna_praca\version2" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\T440p\PhpstormProjects\php_mysql\www\semestralna_praca\templates" />
       <recent name="C:\Users\T440p\PhpstormProjects\php_mysql\www\semestralna_praca\objects" />
       <recent name="C:\Users\T440p\PhpstormProjects\php_mysql\www\semestralna_praca\functions" />
       <recent name="C:\Users\T440p\PhpstormProjects\php_mysql\www\semestralna_praca\images" />
       <recent name="C:\Users\T440p\PhpstormProjects\php_mysql\www\semestralna_praca" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\T440p\PhpstormProjects\php_mysql\www\semestralna_praca" />
+      <recent name="C:\Users\T440p\PhpstormProjects\php_mysql\www\semestralna_praca\old" />
+      <recent name="C:\Users\T440p\PhpstormProjects\php_mysql\www\semestralna_praca\election\commision" />
+      <recent name="C:\Users\T440p\PhpstormProjects\php_mysql\www\semestralna_praca\election\country" />
+      <recent name="C:\Users\T440p\PhpstormProjects\php_mysql\www\semestralna_praca\version3" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -154,7 +151,9 @@
       <workItem from="1605365888466" duration="599000" />
       <workItem from="1605692102361" duration="33688000" />
       <workItem from="1605780320574" duration="6854000" />
-      <workItem from="1606115697185" duration="11286000" />
+      <workItem from="1606115697185" duration="12433000" />
+      <workItem from="1608477123191" duration="2252000" />
+      <workItem from="1610802154648" duration="70349000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1603232825953</created>
@@ -198,7 +197,21 @@
       <option name="project" value="LOCAL" />
       <updated>1603722004603</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="checkpoint 2">
+      <created>1606127838063</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1606127838063</updated>
+    </task>
+    <task id="LOCAL-00008" summary="checkpoint 2 update">
+      <created>1606128130940</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1606128130940</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -223,21 +236,23 @@
     <MESSAGE value="date fixed" />
     <MESSAGE value="date fixed 2" />
     <MESSAGE value="prihlasovanie, registrácia, filter, pridávanie príspevkov" />
-    <option name="LAST_COMMIT_MESSAGE" value="prihlasovanie, registrácia, filter, pridávanie príspevkov" />
+    <MESSAGE value="checkpoint 2" />
+    <MESSAGE value="checkpoint 2 update" />
+    <option name="LAST_COMMIT_MESSAGE" value="checkpoint 2 update" />
   </component>
   <component name="WindowStateProjectService">
     <state x="254" y="90" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603641084705">
       <screen x="0" y="0" width="1600" height="870" />
     </state>
     <state x="254" y="90" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1600.870@0.0.1600.870" timestamp="1603641084705" />
-    <state x="888" y="245" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1603745011944">
+    <state x="888" y="245" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1610925019865">
       <screen x="0" y="0" width="1600" height="870" />
     </state>
-    <state x="888" y="245" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1600.870@0.0.1600.870" timestamp="1603745011944" />
-    <state x="605" y="117" key="#com.intellij.ide.util.MemberChooser" timestamp="1605717863775">
+    <state x="888" y="245" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1600.870@0.0.1600.870" timestamp="1610925019865" />
+    <state x="605" y="117" key="#com.intellij.ide.util.MemberChooser" timestamp="1610823289982">
       <screen x="0" y="0" width="1600" height="870" />
     </state>
-    <state x="605" y="117" key="#com.intellij.ide.util.MemberChooser/0.0.1600.870@0.0.1600.870" timestamp="1605717863775" />
+    <state x="605" y="117" key="#com.intellij.ide.util.MemberChooser/0.0.1600.870@0.0.1600.870" timestamp="1610823289982" />
     <state x="0" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1605711295516">
       <screen x="0" y="0" width="1600" height="870" />
     </state>
@@ -254,66 +269,66 @@
       <screen x="0" y="0" width="1600" height="870" />
     </state>
     <state x="580" y="190" key="FileChooserDialogImpl/0.0.1600.870@0.0.1600.870" timestamp="1606118783358" />
-    <state width="1557" height="317" key="GridCell.Tab.0.bottom" timestamp="1605110048228">
+    <state width="1557" height="360" key="GridCell.Tab.0.bottom" timestamp="1610897585347">
       <screen x="0" y="0" width="1600" height="870" />
     </state>
-    <state width="1557" height="317" key="GridCell.Tab.0.bottom/0.0.1600.870@0.0.1600.870" timestamp="1605110048228" />
-    <state width="1557" height="317" key="GridCell.Tab.0.center" timestamp="1605110048228">
+    <state width="1557" height="360" key="GridCell.Tab.0.bottom/0.0.1600.870@0.0.1600.870" timestamp="1610897585347" />
+    <state width="1557" height="360" key="GridCell.Tab.0.center" timestamp="1610897585347">
       <screen x="0" y="0" width="1600" height="870" />
     </state>
-    <state width="1557" height="317" key="GridCell.Tab.0.center/0.0.1600.870@0.0.1600.870" timestamp="1605110048228" />
-    <state width="1557" height="317" key="GridCell.Tab.0.left" timestamp="1605110048228">
+    <state width="1557" height="360" key="GridCell.Tab.0.center/0.0.1600.870@0.0.1600.870" timestamp="1610897585347" />
+    <state width="1557" height="360" key="GridCell.Tab.0.left" timestamp="1610897585347">
       <screen x="0" y="0" width="1600" height="870" />
     </state>
-    <state width="1557" height="317" key="GridCell.Tab.0.left/0.0.1600.870@0.0.1600.870" timestamp="1605110048228" />
-    <state width="1557" height="317" key="GridCell.Tab.0.right" timestamp="1605110048228">
+    <state width="1557" height="360" key="GridCell.Tab.0.left/0.0.1600.870@0.0.1600.870" timestamp="1610897585347" />
+    <state width="1557" height="360" key="GridCell.Tab.0.right" timestamp="1610897585347">
       <screen x="0" y="0" width="1600" height="870" />
     </state>
-    <state width="1557" height="317" key="GridCell.Tab.0.right/0.0.1600.870@0.0.1600.870" timestamp="1605110048228" />
-    <state width="1557" height="317" key="GridCell.Tab.1.bottom" timestamp="1605110048228">
+    <state width="1557" height="360" key="GridCell.Tab.0.right/0.0.1600.870@0.0.1600.870" timestamp="1610897585347" />
+    <state width="1557" height="360" key="GridCell.Tab.1.bottom" timestamp="1610897585347">
       <screen x="0" y="0" width="1600" height="870" />
     </state>
-    <state width="1557" height="317" key="GridCell.Tab.1.bottom/0.0.1600.870@0.0.1600.870" timestamp="1605110048228" />
-    <state width="1557" height="317" key="GridCell.Tab.1.center" timestamp="1605110048228">
+    <state width="1557" height="360" key="GridCell.Tab.1.bottom/0.0.1600.870@0.0.1600.870" timestamp="1610897585347" />
+    <state width="1557" height="360" key="GridCell.Tab.1.center" timestamp="1610897585347">
       <screen x="0" y="0" width="1600" height="870" />
     </state>
-    <state width="1557" height="317" key="GridCell.Tab.1.center/0.0.1600.870@0.0.1600.870" timestamp="1605110048228" />
-    <state width="1557" height="317" key="GridCell.Tab.1.left" timestamp="1605110048228">
+    <state width="1557" height="360" key="GridCell.Tab.1.center/0.0.1600.870@0.0.1600.870" timestamp="1610897585347" />
+    <state width="1557" height="360" key="GridCell.Tab.1.left" timestamp="1610897585347">
       <screen x="0" y="0" width="1600" height="870" />
     </state>
-    <state width="1557" height="317" key="GridCell.Tab.1.left/0.0.1600.870@0.0.1600.870" timestamp="1605110048228" />
-    <state width="1557" height="317" key="GridCell.Tab.1.right" timestamp="1605110048228">
+    <state width="1557" height="360" key="GridCell.Tab.1.left/0.0.1600.870@0.0.1600.870" timestamp="1610897585347" />
+    <state width="1557" height="360" key="GridCell.Tab.1.right" timestamp="1610897585347">
       <screen x="0" y="0" width="1600" height="870" />
     </state>
-    <state width="1557" height="317" key="GridCell.Tab.1.right/0.0.1600.870@0.0.1600.870" timestamp="1605110048228" />
-    <state width="1557" height="317" key="GridCell.Tab.2.bottom" timestamp="1605110048229">
+    <state width="1557" height="360" key="GridCell.Tab.1.right/0.0.1600.870@0.0.1600.870" timestamp="1610897585347" />
+    <state width="1557" height="360" key="GridCell.Tab.2.bottom" timestamp="1610897585347">
       <screen x="0" y="0" width="1600" height="870" />
     </state>
-    <state width="1557" height="317" key="GridCell.Tab.2.bottom/0.0.1600.870@0.0.1600.870" timestamp="1605110048229" />
-    <state width="1557" height="317" key="GridCell.Tab.2.center" timestamp="1605110048229">
+    <state width="1557" height="360" key="GridCell.Tab.2.bottom/0.0.1600.870@0.0.1600.870" timestamp="1610897585347" />
+    <state width="1557" height="360" key="GridCell.Tab.2.center" timestamp="1610897585347">
       <screen x="0" y="0" width="1600" height="870" />
     </state>
-    <state width="1557" height="317" key="GridCell.Tab.2.center/0.0.1600.870@0.0.1600.870" timestamp="1605110048229" />
-    <state width="1557" height="317" key="GridCell.Tab.2.left" timestamp="1605110048229">
+    <state width="1557" height="360" key="GridCell.Tab.2.center/0.0.1600.870@0.0.1600.870" timestamp="1610897585347" />
+    <state width="1557" height="360" key="GridCell.Tab.2.left" timestamp="1610897585347">
       <screen x="0" y="0" width="1600" height="870" />
     </state>
-    <state width="1557" height="317" key="GridCell.Tab.2.left/0.0.1600.870@0.0.1600.870" timestamp="1605110048229" />
-    <state width="1557" height="317" key="GridCell.Tab.2.right" timestamp="1605110048229">
+    <state width="1557" height="360" key="GridCell.Tab.2.left/0.0.1600.870@0.0.1600.870" timestamp="1610897585347" />
+    <state width="1557" height="360" key="GridCell.Tab.2.right" timestamp="1610897585347">
       <screen x="0" y="0" width="1600" height="870" />
     </state>
-    <state width="1557" height="317" key="GridCell.Tab.2.right/0.0.1600.870@0.0.1600.870" timestamp="1605110048229" />
-    <state x="474" y="158" key="NewPhpClassDialog" timestamp="1605717466500">
+    <state width="1557" height="360" key="GridCell.Tab.2.right/0.0.1600.870@0.0.1600.870" timestamp="1610897585347" />
+    <state x="513" y="164" key="NewPhpClassDialog" timestamp="1610894599299">
       <screen x="0" y="0" width="1600" height="870" />
     </state>
-    <state x="474" y="158" key="NewPhpClassDialog/0.0.1600.870@0.0.1600.870" timestamp="1605717466500" />
-    <state x="634" y="358" key="NewPhpFileDialog" timestamp="1606120144147">
+    <state x="513" y="164" key="NewPhpClassDialog/0.0.1600.870@0.0.1600.870" timestamp="1610894599299" />
+    <state x="634" y="358" key="NewPhpFileDialog" timestamp="1610898165449">
       <screen x="0" y="0" width="1600" height="870" />
     </state>
-    <state x="634" y="358" key="NewPhpFileDialog/0.0.1600.870@0.0.1600.870" timestamp="1606120144147" />
-    <state x="392" y="168" key="Vcs.Push.Dialog.v2" timestamp="1603722010450">
+    <state x="634" y="358" key="NewPhpFileDialog/0.0.1600.870@0.0.1600.870" timestamp="1610898165449" />
+    <state x="392" y="168" key="Vcs.Push.Dialog.v2" timestamp="1606128134281">
       <screen x="0" y="0" width="1600" height="870" />
     </state>
-    <state x="392" y="168" key="Vcs.Push.Dialog.v2/0.0.1600.870@0.0.1600.870" timestamp="1603722010450" />
+    <state x="392" y="168" key="Vcs.Push.Dialog.v2/0.0.1600.870@0.0.1600.870" timestamp="1606128134281" />
     <state x="92" y="92" width="1416" height="686" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1605712986071">
       <screen x="0" y="0" width="1600" height="870" />
     </state>
@@ -326,13 +341,13 @@
       <screen x="0" y="0" width="1600" height="870" />
     </state>
     <state x="617" y="349" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1600.870@0.0.1600.870" timestamp="1605711052187" />
-    <state x="456" y="198" key="run.anything.popup" timestamp="1603710019841">
+    <state x="456" y="198" key="run.anything.popup" timestamp="1610921803079">
       <screen x="0" y="0" width="1600" height="870" />
     </state>
-    <state x="456" y="198" key="run.anything.popup/0.0.1600.870@0.0.1600.870" timestamp="1603710019841" />
-    <state x="463" y="182" width="672" height="678" key="search.everywhere.popup" timestamp="1606117209545">
+    <state x="456" y="198" key="run.anything.popup/0.0.1600.870@0.0.1600.870" timestamp="1610921803079" />
+    <state x="463" y="182" width="672" height="678" key="search.everywhere.popup" timestamp="1610901267461">
       <screen x="0" y="0" width="1600" height="870" />
     </state>
-    <state x="463" y="182" width="672" height="678" key="search.everywhere.popup/0.0.1600.870@0.0.1600.870" timestamp="1606117209545" />
+    <state x="463" y="182" width="672" height="678" key="search.everywhere.popup/0.0.1600.870@0.0.1600.870" timestamp="1610901267461" />
   </component>
 </project>
